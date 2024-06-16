@@ -1,0 +1,38 @@
+.tableContainer {
+  white-space: nowrap;
+}
+.table {
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px !important;
+  overflow: visible;
+}
+.tableHeader {
+  background-color: #0073b7;
+  color: white;
+}
+
+.tableHeaderCell {
+  text-align: center;
+  font-weight: bold;
+}
+
+.tableRow {
+  background-color: #f9f9f9;
+}
+
+.tableCell {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  max-height: 25px !important;
+}
+
+.totalRow .tableCell {
+  font-weight: bold !important;
+}
+
+.currencyCell {
+  text-align: right;
+  padding-right: 16px;
+}
